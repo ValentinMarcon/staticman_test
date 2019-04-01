@@ -21,3 +21,4 @@ staticman:
  moderation: true
  path: "_data/biotools"
  requiredFields: ['title', 'description', 'biotools', 'website', 'doi']
+ baseurl: "https://github.com/ValentinMarcon/staticman_test"
