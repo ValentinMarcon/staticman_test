@@ -1,11 +1,11 @@
 # Site settings
-title: Popcorn - A Staticman sample page
+title: Biotools - A Staticman sample page
 email: your-email@domain.com
 description: Test
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  ValentinMarcon
 movieFormUrl: https://staticman.net/api/v1/entries/5622d244c4bf944a1a3e3001
 
 # Build settings
@@ -13,11 +13,11 @@ markdown: kramdown
 
 # Staticman
 staticman:
- allowedFields: ['address', 'name', 'title', 'description', 'rating']
+ allowedFields: ['title', 'description', 'biotools', 'website', 'doi']
  branch: gh-pages
- commitMessage: "Hey human, here is a new entry."
+ commitMessage: "Hey human, here is a new biotool entry."
  filename: "entry{@timestamp}"
  format: yml
  moderation: true
- path: "_data/reviews"
- requiredFields: ['name', 'title', 'description', 'rating']
+ path: "_data/biotools"
+ requiredFields: ['title', 'description', 'biotools', 'website', 'doi']

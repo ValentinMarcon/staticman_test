@@ -32,24 +32,24 @@ body {
 }
 
 section + section {
-	margin-top: 2em;
+	margin-top: 2emr
 	margin-bottom: 2em;
 }
 
 .header {
 	overflow: hidden;
 	text-align: center;
-	background-color: rgb(63,81,181);
+	background-color: rgb(246,166,35);
 	color: white;
-	padding: 0 1em 1em 1em;
 }
 
 .header h1, .header h5 {
 	font-weight: 300;
+	line-height: 0.1;
 }
 
 .header h5 {
-	line-height: 1.5;
+	line-height: 1;
 }
 
 .constrain {
