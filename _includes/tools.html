@@ -13,14 +13,14 @@
 		    	{{ biotoolData.description | markdownify }}
 		    </div>
 		    <p><strong>website: </strong> 
-		      <a href="{{ biotoolData.website }}">
+		      <a href="{{ biotoolData.website }}" target="_blank">
 		        {{ biotoolData.website }}
 		      </a>
 		    </p>
 		    <p><strong>biotools ID: </strong>{{ biotoolData.biotools }}</p>
 		  </div>
 		  <div class="mdl-card__actions mdl-card--border">
-		    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://dx.doi.org/{{ biotoolData.doi }}">
+		    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://dx.doi.org/{{ biotoolData.doi }}" target=”_blank”>
 		      DOI: {{ biotoolData.doi }}
 		    </a>
 		  </div>

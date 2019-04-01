@@ -14,8 +14,8 @@ markdown: kramdown
 # Staticman
 staticman:
  allowedFields: ['title', 'description', 'biotools', 'website', 'doi']
- branch: gh-pages
- commitMessage: "Hey human, here is a new biotool entry."
+ branch: master
+ commitMessage: "Hey human, here is a new entry."
  filename: "entry{@timestamp}"
  format: yml
  moderation: true
