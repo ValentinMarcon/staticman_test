@@ -1,5 +1,5 @@
 (function ($) {
-  var $comments = $('.js-comments');
+  var $biotools = $('.js-biotools');
 
   $('.js-form').submit(function () {
     var form = this;

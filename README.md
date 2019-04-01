@@ -1,4 +1,4 @@
-# "Elixir Entry" a test on staticman application
+# "Bio.tools Entry" a test on staticman application
 
 ## Introduction: Static man
 
@@ -15,19 +15,24 @@ When the form is submitted, the data is sent to the Staticman API via Ajax, whic
 
 This staticman config is based on  [popcorn demo](https://github.com/eduardoboucas/popcorn), following the [staticman doc](https://staticman.net/docs/), but as staticman bot is broken we use the [static man app](https://github.com/apps/staticman-net) currently [under development](https://github.com/eduardoboucas/staticman/issues/243#issuecomment-453754860)
 
-## Requirement
+## Requirement and run
 
 ### [Ruby Gems](https://jekyllrb.com/docs/installation/)
 
-sudo apt-get install ruby-full build-essential zlib1g-dev
+`sudo apt-get install ruby-full build-essential zlib1g-dev`
 
 ### [Jekyll](https://jekyllrb.com/docs/)
 
-gem install jekyll
+`gem install jekyll`
 
-cd staticman_test
+### RUN
 
-jekyll serve
+`cd staticman_test`
+
+`jekyll serve`
+
+Go to : http://127.0.0.1:4000/
+
 
 ## Links
 
