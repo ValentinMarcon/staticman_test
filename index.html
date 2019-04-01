@@ -6,6 +6,18 @@ layout: default
     When a the form is submitted, the data is sent to the Staticman API via Ajax, which will push it to <a href="https://github.com/eduardoboucas/popcorn">the GitHub repository</a> and cause a regeneration of the Jekyll site.</p>
     <h6>You can fork this repository and use it as a starting point to create your own Staticman integration.</h6>
   </section>
+ 
+  
+<form method="POST" action="https://dev.staticman.net/v3/entry/github/ValentinMarcon/staticman_test/master/">
+  <input name="options[redirect]" type="hidden" value="https://my-site.com">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[name]" type="text">Name</label>
+  <label><input name="fields[email]" type="email">E-mail</label>
+  <label><textarea name="fields[message]"></textarea>Message</label>
+  <input type="hidden" name="options[slug]" value="{{ .Source.BaseFileName }}"> 
+  <button type="submit">Go!</button>
+</form>
 
   <section class="constrain">
     <h3>Enter a new tool in bio.tools</h3>
