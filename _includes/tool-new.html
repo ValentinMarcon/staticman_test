@@ -8,9 +8,9 @@
   </fieldset>
 
   <fieldset class="field-group">
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-      <input class="mdl-textfield__input" type="text" id="biotool-form[biotoolsID]" name="fields[biotoolsID]"/>
-      <label class="mdl-textfield__label" for="biotool-form[biotoolsID]">Bio.tools ID</label>
+    <div class="mdl-textfield mdl-textfield--floating-label mdl-js-textfield">
+      <textarea class="mdl-textfield__input" name="fields[description]" type="text" rows= "3" id="biotool-form[description]"></textarea>
+      <label class="mdl-textfield__label" for="biotool-form[description]">Description</label>
     </div>
   </fieldset>
 
@@ -22,9 +22,16 @@
   </fieldset>
 
   <fieldset class="field-group">
-    <div class="mdl-textfield mdl-textfield--floating-label mdl-js-textfield">
-      <textarea class="mdl-textfield__input" name="fields[description]" type="text" rows= "3" id="biotool-form[description]"></textarea>
-      <label class="mdl-textfield__label" for="biotool-form[description]">Description</label>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="biotool-form[biotoolsID]" name="fields[biotoolsID]"/>
+      <label class="mdl-textfield__label" for="biotool-form[biotoolsID]">Bio.tools ID</label>
+    </div>
+  </fieldset>
+
+ <fieldset class="field-group">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="biotool-form[operation]" name="fields[operation]"/>
+      <label class="mdl-textfield__label" for="biotool-form[operation]">Function operations uri (coma separated)</label>
     </div>
   </fieldset>
 
