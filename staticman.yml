@@ -36,6 +36,11 @@ biotools:
       type: date
       options:
         format: "timestamp-seconds"
+    date2:
+      type: date
+      options:
+        format: "timestamp"
+  
 
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
