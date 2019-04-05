@@ -1,5 +1,6 @@
-title: MAFFT
+name: MAFFT
 description: 'MAFFT (Multiple Alignment using Fast Fourier Transform) is a high speed multiple sequence alignment program.'
-biotools: 'MAFFT'
-website: 'http://mafft.cbrc.jp/alignment/server/index.html'
+biotoolsID: 'MAFFT'
+homepage: 'http://mafft.cbrc.jp/alignment/server/index.html'
+operation: 'operation_0492'
 doi: '10.1007/978-1-62703-646-7_8'
